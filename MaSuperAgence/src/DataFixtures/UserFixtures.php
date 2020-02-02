@@ -9,14 +9,13 @@ use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 class UserFixtures extends Fixture
 {
-
     /**
      * @var UserPasswordEncoderInterface
      */
     private $encoder;
 
     /**
-     * AppFixtures constructor.
+     * UserFixtures constructor.
      * @param UserPasswordEncoderInterface $encoder
      */
     public function __construct(UserPasswordEncoderInterface $encoder)
@@ -25,6 +24,9 @@ class UserFixtures extends Fixture
         $this->encoder = $encoder;
     }
 
+    /**
+     * @param ObjectManager $manager
+     */
     public function load(ObjectManager $manager)
     {
         $user = new User();
