@@ -26,7 +26,10 @@
       <excludeFolder url="file://$MODULE_DIR$/MaSuperAgence/vendor/doctrine/reflection" />
       <excludeFolder url="file://$MODULE_DIR$/MaSuperAgence/vendor/easycorp/easy-log-handler" />
       <excludeFolder url="file://$MODULE_DIR$/MaSuperAgence/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/MaSuperAgence/vendor/fzaninotto/faker" />
       <excludeFolder url="file://$MODULE_DIR$/MaSuperAgence/vendor/jdorn/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/MaSuperAgence/vendor/knplabs/knp-components" />
+      <excludeFolder url="file://$MODULE_DIR$/MaSuperAgence/vendor/knplabs/knp-paginator-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/MaSuperAgence/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/MaSuperAgence/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/MaSuperAgence/vendor/ocramius/package-versions" />

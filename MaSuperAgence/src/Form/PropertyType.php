@@ -10,6 +10,10 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class PropertyType extends AbstractType
 {
+    /**
+     * @param FormBuilderInterface $builder
+     * @param array $options
+     */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
@@ -29,6 +33,9 @@ class PropertyType extends AbstractType
             ->add('sold');
     }
 
+    /**
+     * @return array
+     */
     private function getChoices()
     {
         $choices = Property::HEAT;
@@ -39,6 +46,9 @@ class PropertyType extends AbstractType
         return $output;
     }
 
+    /**
+     * @param OptionsResolver $resolver
+     */
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
