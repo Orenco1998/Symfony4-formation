@@ -44,7 +44,6 @@ class PropertyRepository extends ServiceEntityRepository
 
             foreach ($search->getOptions() as $option) {
             $k++;
-            dump($k);
                 $query = $query
                     ->andWhere(":option$k MEMBER OF p.options")
                     ->setParameter("option$k", $option);

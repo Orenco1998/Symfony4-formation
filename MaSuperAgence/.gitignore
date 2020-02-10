@@ -1,5 +1,7 @@
 
 ###> symfony/framework-bundle ###
+public/images
+public/media
 /.env.local
 /.env.local.php
 /.env.*.local
@@ -14,3 +16,7 @@
 .phpunit.result.cache
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
+
+###> liip/imagine-bundle ###
+/public/media/cache/
+###< liip/imagine-bundle ###
